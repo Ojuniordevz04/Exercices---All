@@ -10,12 +10,13 @@ def divide_dois(n1, n2):
 def fatorial():
     pass
 #CALCULAR MEDIA
-def media(n1,n2):
-    media = n1 + n2
+def media(n1,n2, div):
+    media = n1 + n2 / div
     return media
 #CALCULAR MULTIPLICAÇÃO
 def multiplica_dois(n1,n2):
-    
+    multiplicar = (n1 * n2)
+    return multiplicar
 #PAR OU IMPA
     def par_ou_impar():
      pass
